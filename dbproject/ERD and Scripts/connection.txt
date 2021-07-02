@@ -1,0 +1,4 @@
+CREATE USER [username] IDENTIFIED BY [password];
+GRANT CONNECT TO [username];
+GRANT CONNECT, RESOURCE, DBA TO [username];
+GRANT UNLIMITED TABLESPACE TO [username];

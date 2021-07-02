@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9B76225-B4AF-EF2E-50C8-F341EC76436C" name="Electronics">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 16:01:28 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8BA5C85A-0CCC-98C4-83B8-BB2A1FD8DB56">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:25:19 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category" id="DBCE8042-5B04-D69D-AC5A-19027BD1ED13">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:26:12 UTC</createdTime>
+<generatorID>F9938477-8B0C-9DA9-DAB4-4A52701F63C0</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<referedAttribute>19FE8809-2B64-17B0-33AB-A6D832A285BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="9E815C8C-FB9C-43DE-CB07-11A36F207FAC">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:25:34 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="35B1C043-4AEB-A4BC-B0A1-7D7F2E59B5AA">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:25:47 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="8AED1EE1-560A-BBF0-ACAD-75AF035A28A7">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:26:00 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F0368EF1-A097-3519-17E8-61AC7E8229DB" name="Electronics PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:25:31 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8BA5C85A-0CCC-98C4-83B8-BB2A1FD8DB56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

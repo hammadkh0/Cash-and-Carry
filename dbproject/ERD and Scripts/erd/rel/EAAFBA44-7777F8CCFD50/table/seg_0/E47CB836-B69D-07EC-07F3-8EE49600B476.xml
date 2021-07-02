@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E47CB836-B69D-07EC-07F3-8EE49600B476" name="Inventory">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>E871DD78-F486-F908-CE2D-D5BB5BAF03A9</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E9E97EB9-BACF-E299-E1DE-569849FAC3C3">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>44B359B9-1D51-CF08-FCF5-8A5DCDA09A7A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category" id="789879D1-934E-79E5-5387-E59502A096D6">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>19FE8809-2B64-17B0-33AB-A6D832A285BF</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_id" id="195E8B7C-72AC-9C8B-BE86-5D96F7EDF173">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>B665DD03-519F-B60B-046E-38FA7C4B4ACB</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27499DBB-D60B-91C6-34D1-F81D0A6937E0" referredColumn="488554E6-12F4-9AB7-E4E7-ACBE875E2B56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="444B79A1-B294-4FA2-21D6-D4016115E7E5" name="Inventory_PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>4597D374-53DD-53AF-28EC-7B1B6407C772</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="789879D1-934E-79E5-5387-E59502A096D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B9A8D9E-5F5B-E7CE-F9C4-24164FCFFA45" name="Inventory_Admin_FK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>6E784176-4303-1EB1-B534-939F25B6D55A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="195E8B7C-72AC-9C8B-BE86-5D96F7EDF173"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEC73FB5-8BCA-2C85-C5B0-BA21EF3F98A3" name="Purchase history">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>06ED4BC6-6BA7-7B68-0C03-3D66581EFC89</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="318E3F35-E897-0B69-4EDC-99160B2B1EBA">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:01:42 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="totalItems" id="71C1ED2B-58E8-8D63-AD49-FA324F4F9FEC">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>E00F6794-B694-10A0-CA35-3759F23CAC60</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="totalBill" id="8FACD90E-FE3E-1166-946B-604C3C53F301">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>02DB401C-FCDF-7B60-054E-F79063CB043B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="661436D5-30C6-44D9-3CC9-B6F84A60139B">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>F964F626-BC7D-B596-97B0-4887F014848B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="5C90898C-3A00-065F-A583-6DCDC3310E35">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:03:54 UTC</createdTime>
+<generatorID>429AC942-2D1D-F263-FDCE-A0876E24E852</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<referedAttribute>6A5056BE-F940-F87E-BB4C-D8D0E08B71DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D3C65CA-DDA4-BBDC-D049-3C9923278F85" name="Purchase history PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 19:33:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

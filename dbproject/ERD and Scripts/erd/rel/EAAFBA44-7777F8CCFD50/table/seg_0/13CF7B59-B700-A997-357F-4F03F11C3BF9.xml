@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13CF7B59-B700-A997-357F-4F03F11C3BF9" name="Buyer">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>21453F07-6B38-0B9A-49A7-826A9F247E10</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="03531811-E5BC-AAAD-D139-E0BEB521840F">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>6A5056BE-F940-F87E-BB4C-D8D0E08B71DA</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="936EE970-1F17-F4A7-E78F-37E7E461B22E">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>236CD77A-A767-7DE8-A960-62BF3DDD9E5E</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact" id="C6B8D1FD-952B-4655-D4F2-EF26BA3E3C58">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>C9712927-A3BD-7880-C769-C10CFD4CB995</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="8C6607E8-3AE8-D4AC-0BC7-BEE9357248B0">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>AFEAC7F5-8E86-7E52-3A1E-BFAE8474FC6B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="537AA22E-91C0-8200-A461-436CF0D9C349">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>663B5618-B5D7-A8BC-9474-6B9DDF03B329</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="9531F64F-5E04-10C8-8939-4DC2FF9D1051">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>7874343A-C5DC-16F1-FBC3-D84916C1E42B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78293D03-D207-6012-6A16-8D3E4E37A11E" name="Buyer_PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>A96DA7B1-B022-A2B4-BA0D-6D537C736B0B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03531811-E5BC-AAAD-D139-E0BEB521840F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

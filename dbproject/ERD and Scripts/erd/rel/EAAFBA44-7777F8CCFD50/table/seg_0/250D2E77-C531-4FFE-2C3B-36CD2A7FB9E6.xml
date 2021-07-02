@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="250D2E77-C531-4FFE-2C3B-36CD2A7FB9E6" name="Payment">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>0271DB33-2B31-1B4C-525C-D4AB47E0275B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="balance" id="ED63D322-669F-C333-0531-6BDF968C6160">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>D1EB6A72-D2FE-FC76-9C82-B1603A6934C7</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bank_account" id="BB8E0412-8D9A-A72E-6715-6BBE1D59D7D2">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>DF50AB8C-C0F2-0BFA-A99F-3E2DB4AD36C2</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Buyer_id" id="3BB94ADB-166A-A3F0-DF33-0E042E6629EA">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>DD517A59-41DA-2702-482B-313CB64CC17A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BE3CDFC-2F24-322F-6EBE-DDF912A7142C" referredColumn="03531811-E5BC-AAAD-D139-E0BEB521840F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F06C129-74DE-A800-A6BD-F20DE96CE2D5" name="Payment_PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>7B43293F-87C3-C296-7504-95BCCA2D4670</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB94ADB-166A-A3F0-DF33-0E042E6629EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30A1207B-E83C-FFAD-6353-137068B92B90" name="Payment_Buyer_FK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>3626CA27-CBA6-2050-B59C-193A6718475A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BB94ADB-166A-A3F0-DF33-0E042E6629EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

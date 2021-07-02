@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4D7051E-EBCD-8976-E456-A618FB614337" name="Home_Appliances">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>4C7E0B5E-E09F-8FE5-D9A3-C33FBD3F5649</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C3D6B7DF-2C46-AE62-82A6-D20B0DB3A3E1">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>1DEC7E3B-8120-2079-B09F-057070C36929</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inventory_category" id="FD43D6E5-864A-89E4-1E41-E7D5166ADE5F">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>A003D802-1158-E87F-6127-358D267A8144</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08F0E5F7-4CB7-5D56-F1E8-8088B7D84CC1" referredColumn="789879D1-934E-79E5-5387-E59502A096D6"/>
+</associations>
+</Column>
+<Column name="name" id="E4573C93-7C52-06E6-A245-8B2243621B82">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>A5DFC79D-3AAE-D7FA-BEFB-EDC10F3704FE</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="FE0562F0-02DA-A4BB-5811-A3460F8870B4">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>5DDDEB3D-B94A-1CA9-3FFC-F8A7BCA48E85</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="886EC62B-B9A6-B3D7-A5FB-B3D1C5D062D7">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>F591F9B7-454B-EB3E-63A6-025FDCFF03C3</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3472F8E9-C832-83D2-1C2D-82AB85AC38AF" name="Home_Appliances_PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>4B0A4C8A-C66A-87BB-95D6-CF7D5F338C33</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3D6B7DF-2C46-AE62-82A6-D20B0DB3A3E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91A8A2AA-B892-CEB0-9AE1-4FDE447CDC77" name="Home_Appliances_Inventory_FK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>488D9B60-00AE-111E-2C08-83C1BA54F9DE</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD43D6E5-864A-89E4-1E41-E7D5166ADE5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

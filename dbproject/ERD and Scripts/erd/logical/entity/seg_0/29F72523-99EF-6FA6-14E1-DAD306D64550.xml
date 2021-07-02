@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29F72523-99EF-6FA6-14E1-DAD306D64550" name="Admin">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>A0BDBD3F-7804-B224-ECE4-89D560646B6C</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FD759C9C-1567-B88E-69A0-800ED6048D33">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>A385FB09-70D0-AF01-A823-59D7A6BDC501</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A3AB3033-B554-222E-6F5B-3E69C19ED840">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>73183B74-E364-4407-88CE-1E572439033F</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contact" id="C04FD117-0CB9-F597-BC75-A00E9E3ECF58">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>EA3156C7-EEBB-80C9-54C0-6B2E035C8578</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="89648422-49A1-7883-E7E8-F5589FE5B57A">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>BB8378E0-7BE3-6ADC-2086-7A4A2D4FB13F</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="D21A77CF-3D1E-60E1-7C64-F2F8C6F47EBF">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>794467D2-BCC9-74E3-CA5F-63CBA5E78078</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="4F7278C8-5915-09E7-B2D9-F75B6B37DB55">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>C4B9340E-01E0-AAFF-B55C-629D1F0BB6C9</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A3D5200B-A6A3-3CBB-462F-EAD2875D6E95" name="Admin PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>AD36F3A6-608A-D089-41F8-2DE58293C6F1</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD759C9C-1567-B88E-69A0-800ED6048D33</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

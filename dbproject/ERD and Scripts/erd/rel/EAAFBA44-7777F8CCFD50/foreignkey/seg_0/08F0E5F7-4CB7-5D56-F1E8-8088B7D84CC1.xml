@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="08F0E5F7-4CB7-5D56-F1E8-8088B7D84CC1" containerWithKeyObject="B4D7051E-EBCD-8976-E456-A618FB614337" localFKIndex="91A8A2AA-B892-CEB0-9AE1-4FDE447CDC77" name="Home_Appliances_Inventory_FK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-30 12:04:36 UTC</createdTime>
+<generatorID>488D9B60-00AE-111E-2C08-83C1BA54F9DE</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>Inventory</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>E47CB836-B69D-07EC-07F3-8EE49600B476</referredTableID>
+<keyObject>444B79A1-B294-4FA2-21D6-D4016115E7E5</keyObject>
+<referredKeyID>444B79A1-B294-4FA2-21D6-D4016115E7E5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>category</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

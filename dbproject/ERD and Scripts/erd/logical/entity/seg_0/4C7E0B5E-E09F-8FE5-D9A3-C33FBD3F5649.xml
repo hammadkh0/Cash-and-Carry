@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4C7E0B5E-E09F-8FE5-D9A3-C33FBD3F5649" name="Home_Appliances">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 16:01:48 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1DEC7E3B-8120-2079-B09F-057070C36929">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 16:09:53 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category" id="A003D802-1158-E87F-6127-358D267A8144">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 16:11:53 UTC</createdTime>
+<generatorID>488D9B60-00AE-111E-2C08-83C1BA54F9DE</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<referedAttribute>19FE8809-2B64-17B0-33AB-A6D832A285BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A5DFC79D-3AAE-D7FA-BEFB-EDC10F3704FE">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 16:11:07 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="5DDDEB3D-B94A-1CA9-3FFC-F8A7BCA48E85">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 16:11:21 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="F591F9B7-454B-EB3E-63A6-025FDCFF03C3">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 16:11:36 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B0A4C8A-C66A-87BB-95D6-CF7D5F338C33" name="Home_Appliances PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 16:10:52 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1DEC7E3B-8120-2079-B09F-057070C36929</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

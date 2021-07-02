@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6C906ED-5900-654B-E7C6-88738232F435" name="Clothing">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 16:01:37 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="95BFC3CD-2795-5314-2FB0-F94C50A7B50D">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:26:57 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category" id="0BE1B4A5-C460-51C2-5D47-D1A1D0C36A82">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:26:23 UTC</createdTime>
+<generatorID>6AAD6F73-9BE8-CA42-0AA5-756465F133B5</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<referedAttribute>19FE8809-2B64-17B0-33AB-A6D832A285BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="1555E403-7326-2274-6CB8-D1AB590F1BCD">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:27:06 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="9681269F-874E-8BD3-A608-AB1CC0EFF78B">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:27:28 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="9E4A33E9-2D00-7BB1-BB7A-51156419404A">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:27:41 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44FD8848-98EB-3C69-3713-0F4DBB8F39BC" name="Clothing PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 18:27:03 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95BFC3CD-2795-5314-2FB0-F94C50A7B50D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

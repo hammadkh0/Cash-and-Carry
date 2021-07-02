@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0271DB33-2B31-1B4C-525C-D4AB47E0275B" name="Payment">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 19:27:05 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="balance" id="D1EB6A72-D2FE-FC76-9C82-B1603A6934C7">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 19:28:51 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bank_account" id="DF50AB8C-C0F2-0BFA-A99F-3E2DB4AD36C2">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 19:30:13 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="DD517A59-41DA-2702-482B-313CB64CC17A">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 19:56:41 UTC</createdTime>
+<generatorID>3626CA27-CBA6-2050-B59C-193A6718475A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<referedAttribute>6A5056BE-F940-F87E-BB4C-D8D0E08B71DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B43293F-87C3-C296-7504-95BCCA2D4670" name="Payment PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 19:33:06 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DD517A59-41DA-2702-482B-313CB64CC17A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E871DD78-F486-F908-CE2D-D5BB5BAF03A9" name="Inventory">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>775397F2-2CD7-B801-4FD5-AA3C70374579</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="44B359B9-1D51-CF08-FCF5-8A5DCDA09A7A">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>5D6D70B3-1954-68E9-733E-F9D79B94CAA2</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category" id="19FE8809-2B64-17B0-33AB-A6D832A285BF">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>9E03C1A6-9700-47FD-FBE8-171999199E7A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B665DD03-519F-B60B-046E-38FA7C4B4ACB">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-25 18:00:41 UTC</createdTime>
+<generatorID>6E784176-4303-1EB1-B534-939F25B6D55A</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="true"/>
+</engineerTo>
+<referedAttribute>FD759C9C-1567-B88E-69A0-800ED6048D33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4597D374-53DD-53AF-28EC-7B1B6407C772" name="Inventory PK">
+<createdBy>Hammad</createdBy>
+<createdTime>2021-06-22 15:56:25 UTC</createdTime>
+<generatorID>1DF17F1B-C65B-B756-ADF4-1EB89243094B</generatorID>
+<ownerDesignName>erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EAAFBA44-C84B-3F72-935B-7777F8CCFD50" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>19FE8809-2B64-17B0-33AB-A6D832A285BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
